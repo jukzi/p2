@@ -46,7 +46,7 @@ public class DownloadJob extends Job {
 
 	@Override
 	protected IStatus run(IProgressMonitor jobMonitor) {
-		jobMonitor.beginTask("Downloading software", IProgressMonitor.UNKNOWN);
+		jobMonitor.beginTask("Downloading software", IProgressMonitor.UNKNOWN); //$NON-NLS-1$
 		do {
 			// get the request we are going to process
 			IArtifactRequest request;

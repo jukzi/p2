@@ -17,7 +17,7 @@ package org.eclipse.equinox.internal.p2.ui.admin;
 import org.eclipse.osgi.util.NLS;
 
 /**
- * Message class for provisioning UI messages.  
+ * Message class for provisioning UI messages.
  * 
  * @since 3.4
  */
@@ -61,6 +61,8 @@ public class ProvAdminUIMessages extends NLS {
 	public static String RepositoryImplementationPropertyPage_NoRepositorySelected;
 	public static String RepositoryImplementationPropertyPage_PropertiesLabel;
 	public static String RepositoryImplementationPropertyPage_ValueColumnLabel;
+
+	public static String InstallAction_ChoseProfile;
 
 	public static String IUGroup_ID;
 	public static String IUGroup_IU_ID_Required;
